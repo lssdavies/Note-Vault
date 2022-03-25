@@ -7,7 +7,7 @@
 This is an online note storing application. User can create notes, save them and delete notes.
 The frontend was provided for the this project, role was to connect the frontend to the backend using Express.
 
-[Deployed App live on Heroku](https://secure-basin-40184.herokuapp.com/))
+[Deployed App live on Heroku](https://secure-basin-40184.herokuapp.com/)
 
 ## Technologies Used
 

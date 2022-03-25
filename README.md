@@ -38,7 +38,7 @@ ONe repo is clones on local machine and dependencies have been installed run com
 
 ## Contributing
 
-If you wish to collaborate please reach contact me via GitHub.
+If you wish to collaborate please contact me via GitHub.
 
 ## Tests
 

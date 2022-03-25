@@ -11,8 +11,8 @@ const app = express();
 
 
 //this links the server js to the api and html routes
-// const apiRoutes = require("./routes/apiRoutes");
-// const htmlRoutes = require("./routes/htmlRoutes");
+const apiRoutes = require("./routes/apiRoutes");
+const htmlRoutes = require("./routes/htmlRoutes");
 
 // middleware instructing server make all files in public dir readily available
 // parse incoming JSON data to req.body
@@ -22,8 +22,8 @@ app.use(express.urlencoded({ extended: true })); /* app.use() method adds a func
 
 
 /*below tells the server which routes to use depending on the client requested endpoint /api will tell the app to router to use apiRoutes and / tells the router to use htmlRoutes*/
-// app.use("/api", apiRoutes);
-// app.use("/", htmlRoutes);
+app.use("/api", apiRoutes);
+app.use("/", htmlRoutes);
 // the above middleware functions need to be set up a server to accept POST data
 
 app.listen(PORT, () => {
